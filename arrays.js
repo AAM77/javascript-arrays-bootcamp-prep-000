@@ -6,10 +6,10 @@ function destructivelyAddElementToBeginningOfArray(array, newElement) {
   array = [newElement, ...array];
 }
 
-function addElementToEndOfArray() {
-  
+function addElementToEndOfArray(array, newElement) {
+  var arrayNew = [...array, newElement];
 }
 
-function destructivelyAddElementToEndOfArray() {
-  
+function destructivelyAddElementToEndOfArray(array, newElement) {
+  array = [...array, newElement ];
 }
